@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE99E71A1E7680650088BA5B /* personDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE99E7191E7680650088BA5B /* personDetailsVC.swift */; };
+		FED0B94D1E7800B2002A834C /* pageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0B94C1E7800B2002A834C /* pageVC.swift */; };
+		FED0B94F1E78011A002A834C /* personNumbersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0B94E1E78011A002A834C /* personNumbersVC.swift */; };
+		FED0B9511E780139002A834C /* personMatrixVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0B9501E780139002A834C /* personMatrixVC.swift */; };
+		FED0B9531E780185002A834C /* personKarma.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0B9521E780185002A834C /* personKarma.swift */; };
+		FED0B9551E7801A4002A834C /* personPeriodsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0B9541E7801A4002A834C /* personPeriodsVC.swift */; };
+		FED0B9571E7801C0002A834C /* personIndividualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0B9561E7801C0002A834C /* personIndividualVC.swift */; };
+		FEFA99AB1E72E3B7006DDC1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99AA1E72E3B7006DDC1B /* AppDelegate.swift */; };
+		FEFA99AD1E72E3B7006DDC1B /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99AC1E72E3B7006DDC1B /* mainVC.swift */; };
+		FEFA99B01E72E3B7006DDC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFA99AE1E72E3B7006DDC1B /* Main.storyboard */; };
+		FEFA99B31E72E3B7006DDC1B /* numerologyOwl2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99B11E72E3B7006DDC1B /* numerologyOwl2.xcdatamodeld */; };
+		FEFA99B51E72E3B7006DDC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFA99B41E72E3B7006DDC1B /* Assets.xcassets */; };
+		FEFA99B81E72E3B7006DDC1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFA99B61E72E3B7006DDC1B /* LaunchScreen.storyboard */; };
+		FEFA99C31E72E3B7006DDC1B /* numerologyOwl2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99C21E72E3B7006DDC1B /* numerologyOwl2Tests.swift */; };
+		FEFA99CE1E72E3B7006DDC1B /* numerologyOwl2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99CD1E72E3B7006DDC1B /* numerologyOwl2UITests.swift */; };
+		FEFA99E91E72EC94006DDC1B /* Persona+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99E71E72EC94006DDC1B /* Persona+CoreDataClass.swift */; };
+		FEFA99EA1E72EC94006DDC1B /* Persona+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99E81E72EC94006DDC1B /* Persona+CoreDataProperties.swift */; };
+		FEFA99F91E72FE1E006DDC1B /* materialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99F81E72FE1E006DDC1B /* materialView.swift */; };
+		FEFA99FB1E73022B006DDC1B /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFA99FA1E73022B006DDC1B /* PersonCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEFA99BF1E72E3B7006DDC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFA999F1E72E3B7006DDC1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFA99A61E72E3B7006DDC1B;
+			remoteInfo = numerologyOwl2;
+		};
+		FEFA99CA1E72E3B7006DDC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFA999F1E72E3B7006DDC1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEFA99A61E72E3B7006DDC1B;
+			remoteInfo = numerologyOwl2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE99E7191E7680650088BA5B /* personDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personDetailsVC.swift; sourceTree = "<group>"; };
+		FED0B94C1E7800B2002A834C /* pageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageVC.swift; sourceTree = "<group>"; };
+		FED0B94E1E78011A002A834C /* personNumbersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personNumbersVC.swift; sourceTree = "<group>"; };
+		FED0B9501E780139002A834C /* personMatrixVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personMatrixVC.swift; sourceTree = "<group>"; };
+		FED0B9521E780185002A834C /* personKarma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personKarma.swift; sourceTree = "<group>"; };
+		FED0B9541E7801A4002A834C /* personPeriodsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personPeriodsVC.swift; sourceTree = "<group>"; };
+		FED0B9561E7801C0002A834C /* personIndividualVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personIndividualVC.swift; sourceTree = "<group>"; };
+		FEFA99A71E72E3B7006DDC1B /* numerologyOwl2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = numerologyOwl2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFA99AA1E72E3B7006DDC1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEFA99AC1E72E3B7006DDC1B /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		FEFA99AF1E72E3B7006DDC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEFA99B21E72E3B7006DDC1B /* numerologyOwl2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = numerologyOwl2.xcdatamodel; sourceTree = "<group>"; };
+		FEFA99B41E72E3B7006DDC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEFA99B71E72E3B7006DDC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEFA99B91E72E3B7006DDC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFA99BE1E72E3B7006DDC1B /* numerologyOwl2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = numerologyOwl2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFA99C21E72E3B7006DDC1B /* numerologyOwl2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numerologyOwl2Tests.swift; sourceTree = "<group>"; };
+		FEFA99C41E72E3B7006DDC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFA99C91E72E3B7006DDC1B /* numerologyOwl2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = numerologyOwl2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFA99CD1E72E3B7006DDC1B /* numerologyOwl2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numerologyOwl2UITests.swift; sourceTree = "<group>"; };
+		FEFA99CF1E72E3B7006DDC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFA99E71E72EC94006DDC1B /* Persona+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Persona+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FEFA99E81E72EC94006DDC1B /* Persona+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Persona+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FEFA99F81E72FE1E006DDC1B /* materialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialView.swift; sourceTree = "<group>"; };
+		FEFA99FA1E73022B006DDC1B /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEFA99A41E72E3B7006DDC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFA99BB1E72E3B7006DDC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFA99C61E72E3B7006DDC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE99E7181E75A0270088BA5B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEFA99AC1E72E3B7006DDC1B /* mainVC.swift */,
+				FE99E7191E7680650088BA5B /* personDetailsVC.swift */,
+				FED0B94C1E7800B2002A834C /* pageVC.swift */,
+				FED0B94E1E78011A002A834C /* personNumbersVC.swift */,
+				FED0B9501E780139002A834C /* personMatrixVC.swift */,
+				FED0B9521E780185002A834C /* personKarma.swift */,
+				FED0B9541E7801A4002A834C /* personPeriodsVC.swift */,
+				FED0B9561E7801C0002A834C /* personIndividualVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FEFA999E1E72E3B7006DDC1B = {
+			isa = PBXGroup;
+			children = (
+				FEFA99A91E72E3B7006DDC1B /* numerologyOwl2 */,
+				FEFA99C11E72E3B7006DDC1B /* numerologyOwl2Tests */,
+				FEFA99CC1E72E3B7006DDC1B /* numerologyOwl2UITests */,
+				FEFA99A81E72E3B7006DDC1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEFA99A81E72E3B7006DDC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEFA99A71E72E3B7006DDC1B /* numerologyOwl2.app */,
+				FEFA99BE1E72E3B7006DDC1B /* numerologyOwl2Tests.xctest */,
+				FEFA99C91E72E3B7006DDC1B /* numerologyOwl2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEFA99A91E72E3B7006DDC1B /* numerologyOwl2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE99E7181E75A0270088BA5B /* controller */,
+				FEFA99F71E72FDCE006DDC1B /* view */,
+				FEFA99DF1E72E666006DDC1B /* model */,
+				FEFA99AA1E72E3B7006DDC1B /* AppDelegate.swift */,
+				FEFA99AE1E72E3B7006DDC1B /* Main.storyboard */,
+				FEFA99B41E72E3B7006DDC1B /* Assets.xcassets */,
+				FEFA99B61E72E3B7006DDC1B /* LaunchScreen.storyboard */,
+				FEFA99B91E72E3B7006DDC1B /* Info.plist */,
+				FEFA99B11E72E3B7006DDC1B /* numerologyOwl2.xcdatamodeld */,
+			);
+			path = numerologyOwl2;
+			sourceTree = "<group>";
+		};
+		FEFA99C11E72E3B7006DDC1B /* numerologyOwl2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFA99C21E72E3B7006DDC1B /* numerologyOwl2Tests.swift */,
+				FEFA99C41E72E3B7006DDC1B /* Info.plist */,
+			);
+			path = numerologyOwl2Tests;
+			sourceTree = "<group>";
+		};
+		FEFA99CC1E72E3B7006DDC1B /* numerologyOwl2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEFA99CD1E72E3B7006DDC1B /* numerologyOwl2UITests.swift */,
+				FEFA99CF1E72E3B7006DDC1B /* Info.plist */,
+			);
+			path = numerologyOwl2UITests;
+			sourceTree = "<group>";
+		};
+		FEFA99DF1E72E666006DDC1B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FEFA99E71E72EC94006DDC1B /* Persona+CoreDataClass.swift */,
+				FEFA99E01E72E66C006DDC1B /* gen */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FEFA99E01E72E66C006DDC1B /* gen */ = {
+			isa = PBXGroup;
+			children = (
+				FEFA99E81E72EC94006DDC1B /* Persona+CoreDataProperties.swift */,
+			);
+			name = gen;
+			sourceTree = "<group>";
+		};
+		FEFA99F71E72FDCE006DDC1B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FEFA99F81E72FE1E006DDC1B /* materialView.swift */,
+				FEFA99FA1E73022B006DDC1B /* PersonCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEFA99A61E72E3B7006DDC1B /* numerologyOwl2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFA99D21E72E3B7006DDC1B /* Build configuration list for PBXNativeTarget "numerologyOwl2" */;
+			buildPhases = (
+				FEFA99A31E72E3B7006DDC1B /* Sources */,
+				FEFA99A41E72E3B7006DDC1B /* Frameworks */,
+				FEFA99A51E72E3B7006DDC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = numerologyOwl2;
+			productName = numerologyOwl2;
+			productReference = FEFA99A71E72E3B7006DDC1B /* numerologyOwl2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEFA99BD1E72E3B7006DDC1B /* numerologyOwl2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFA99D51E72E3B7006DDC1B /* Build configuration list for PBXNativeTarget "numerologyOwl2Tests" */;
+			buildPhases = (
+				FEFA99BA1E72E3B7006DDC1B /* Sources */,
+				FEFA99BB1E72E3B7006DDC1B /* Frameworks */,
+				FEFA99BC1E72E3B7006DDC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFA99C01E72E3B7006DDC1B /* PBXTargetDependency */,
+			);
+			name = numerologyOwl2Tests;
+			productName = numerologyOwl2Tests;
+			productReference = FEFA99BE1E72E3B7006DDC1B /* numerologyOwl2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEFA99C81E72E3B7006DDC1B /* numerologyOwl2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFA99D81E72E3B7006DDC1B /* Build configuration list for PBXNativeTarget "numerologyOwl2UITests" */;
+			buildPhases = (
+				FEFA99C51E72E3B7006DDC1B /* Sources */,
+				FEFA99C61E72E3B7006DDC1B /* Frameworks */,
+				FEFA99C71E72E3B7006DDC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEFA99CB1E72E3B7006DDC1B /* PBXTargetDependency */,
+			);
+			name = numerologyOwl2UITests;
+			productName = numerologyOwl2UITests;
+			productReference = FEFA99C91E72E3B7006DDC1B /* numerologyOwl2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEFA999F1E72E3B7006DDC1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Reinis Kalnins";
+				TargetAttributes = {
+					FEFA99A61E72E3B7006DDC1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FEFA99BD1E72E3B7006DDC1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEFA99A61E72E3B7006DDC1B;
+					};
+					FEFA99C81E72E3B7006DDC1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEFA99A61E72E3B7006DDC1B;
+					};
+				};
+			};
+			buildConfigurationList = FEFA99A21E72E3B7006DDC1B /* Build configuration list for PBXProject "numerologyOwl2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEFA999E1E72E3B7006DDC1B;
+			productRefGroup = FEFA99A81E72E3B7006DDC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEFA99A61E72E3B7006DDC1B /* numerologyOwl2 */,
+				FEFA99BD1E72E3B7006DDC1B /* numerologyOwl2Tests */,
+				FEFA99C81E72E3B7006DDC1B /* numerologyOwl2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEFA99A51E72E3B7006DDC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFA99B81E72E3B7006DDC1B /* LaunchScreen.storyboard in Resources */,
+				FEFA99B51E72E3B7006DDC1B /* Assets.xcassets in Resources */,
+				FEFA99B01E72E3B7006DDC1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFA99BC1E72E3B7006DDC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFA99C71E72E3B7006DDC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEFA99A31E72E3B7006DDC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFA99AD1E72E3B7006DDC1B /* mainVC.swift in Sources */,
+				FEFA99B31E72E3B7006DDC1B /* numerologyOwl2.xcdatamodeld in Sources */,
+				FED0B94D1E7800B2002A834C /* pageVC.swift in Sources */,
+				FEFA99E91E72EC94006DDC1B /* Persona+CoreDataClass.swift in Sources */,
+				FEFA99F91E72FE1E006DDC1B /* materialView.swift in Sources */,
+				FED0B9551E7801A4002A834C /* personPeriodsVC.swift in Sources */,
+				FEFA99EA1E72EC94006DDC1B /* Persona+CoreDataProperties.swift in Sources */,
+				FED0B9511E780139002A834C /* personMatrixVC.swift in Sources */,
+				FED0B9531E780185002A834C /* personKarma.swift in Sources */,
+				FED0B94F1E78011A002A834C /* personNumbersVC.swift in Sources */,
+				FEFA99AB1E72E3B7006DDC1B /* AppDelegate.swift in Sources */,
+				FE99E71A1E7680650088BA5B /* personDetailsVC.swift in Sources */,
+				FED0B9571E7801C0002A834C /* personIndividualVC.swift in Sources */,
+				FEFA99FB1E73022B006DDC1B /* PersonCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFA99BA1E72E3B7006DDC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFA99C31E72E3B7006DDC1B /* numerologyOwl2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFA99C51E72E3B7006DDC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFA99CE1E72E3B7006DDC1B /* numerologyOwl2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEFA99C01E72E3B7006DDC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFA99A61E72E3B7006DDC1B /* numerologyOwl2 */;
+			targetProxy = FEFA99BF1E72E3B7006DDC1B /* PBXContainerItemProxy */;
+		};
+		FEFA99CB1E72E3B7006DDC1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEFA99A61E72E3B7006DDC1B /* numerologyOwl2 */;
+			targetProxy = FEFA99CA1E72E3B7006DDC1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEFA99AE1E72E3B7006DDC1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFA99AF1E72E3B7006DDC1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEFA99B61E72E3B7006DDC1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFA99B71E72E3B7006DDC1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEFA99D01E72E3B7006DDC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEFA99D11E72E3B7006DDC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEFA99D31E72E3B7006DDC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = numerologyOwl2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RK.numerologyOwl2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FEFA99D41E72E3B7006DDC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = numerologyOwl2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RK.numerologyOwl2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FEFA99D61E72E3B7006DDC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = numerologyOwl2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RK.numerologyOwl2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/numerologyOwl2.app/numerologyOwl2";
+			};
+			name = Debug;
+		};
+		FEFA99D71E72E3B7006DDC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = numerologyOwl2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RK.numerologyOwl2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/numerologyOwl2.app/numerologyOwl2";
+			};
+			name = Release;
+		};
+		FEFA99D91E72E3B7006DDC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = numerologyOwl2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RK.numerologyOwl2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = numerologyOwl2;
+			};
+			name = Debug;
+		};
+		FEFA99DA1E72E3B7006DDC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = numerologyOwl2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RK.numerologyOwl2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = numerologyOwl2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEFA99A21E72E3B7006DDC1B /* Build configuration list for PBXProject "numerologyOwl2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFA99D01E72E3B7006DDC1B /* Debug */,
+				FEFA99D11E72E3B7006DDC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFA99D21E72E3B7006DDC1B /* Build configuration list for PBXNativeTarget "numerologyOwl2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFA99D31E72E3B7006DDC1B /* Debug */,
+				FEFA99D41E72E3B7006DDC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFA99D51E72E3B7006DDC1B /* Build configuration list for PBXNativeTarget "numerologyOwl2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFA99D61E72E3B7006DDC1B /* Debug */,
+				FEFA99D71E72E3B7006DDC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFA99D81E72E3B7006DDC1B /* Build configuration list for PBXNativeTarget "numerologyOwl2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFA99D91E72E3B7006DDC1B /* Debug */,
+				FEFA99DA1E72E3B7006DDC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEFA99B11E72E3B7006DDC1B /* numerologyOwl2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEFA99B21E72E3B7006DDC1B /* numerologyOwl2.xcdatamodel */,
+			);
+			currentVersion = FEFA99B21E72E3B7006DDC1B /* numerologyOwl2.xcdatamodel */;
+			path = numerologyOwl2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEFA999F1E72E3B7006DDC1B /* Project object */;
+}
