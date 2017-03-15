@@ -10,10 +10,12 @@ import UIKit
 
 class personNumbersVC: UIViewController {
 
+    @IBOutlet weak var numberslbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //numberslbl.text = person
     }
 
     override func didReceiveMemoryWarning() {

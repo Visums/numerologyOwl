@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE79EFC91E796FA4002B15E7 /* pageDotsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE79EFC81E796FA4002B15E7 /* pageDotsVC.swift */; };
 		FE99E71A1E7680650088BA5B /* personDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE99E7191E7680650088BA5B /* personDetailsVC.swift */; };
 		FED0B94D1E7800B2002A834C /* pageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0B94C1E7800B2002A834C /* pageVC.swift */; };
 		FED0B94F1E78011A002A834C /* personNumbersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0B94E1E78011A002A834C /* personNumbersVC.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE79EFC81E796FA4002B15E7 /* pageDotsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageDotsVC.swift; sourceTree = "<group>"; };
 		FE99E7191E7680650088BA5B /* personDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personDetailsVC.swift; sourceTree = "<group>"; };
 		FED0B94C1E7800B2002A834C /* pageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageVC.swift; sourceTree = "<group>"; };
 		FED0B94E1E78011A002A834C /* personNumbersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personNumbersVC.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				FED0B9521E780185002A834C /* personKarma.swift */,
 				FED0B9541E7801A4002A834C /* personPeriodsVC.swift */,
 				FED0B9561E7801C0002A834C /* personIndividualVC.swift */,
+				FE79EFC81E796FA4002B15E7 /* pageDotsVC.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				FED0B94D1E7800B2002A834C /* pageVC.swift in Sources */,
 				FEFA99E91E72EC94006DDC1B /* Persona+CoreDataClass.swift in Sources */,
 				FEFA99F91E72FE1E006DDC1B /* materialView.swift in Sources */,
+				FE79EFC91E796FA4002B15E7 /* pageDotsVC.swift in Sources */,
 				FED0B9551E7801A4002A834C /* personPeriodsVC.swift in Sources */,
 				FEFA99EA1E72EC94006DDC1B /* Persona+CoreDataProperties.swift in Sources */,
 				FED0B9511E780139002A834C /* personMatrixVC.swift in Sources */,

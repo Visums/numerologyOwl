@@ -8,7 +8,7 @@
 
 import UIKit
 
-class pageVC: UIPageViewController, UIPageViewControllerDataSource {
+class pageVC: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
 
     
     private var _person:Persona!
@@ -21,10 +21,18 @@ class pageVC: UIPageViewController, UIPageViewControllerDataSource {
         }
     }
     
+    //weak var pageDelegate: pageVCDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         dataSource = self
+        //delegate = self
+        
+        if let topItem = self.navigationController?.navigationBar.topItem {
+            
+            topItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
+        }
         
         if let firstViewController = orderedViewControllers.first {
             setViewControllers([firstViewController],
@@ -32,6 +40,8 @@ class pageVC: UIPageViewController, UIPageViewControllerDataSource {
                                animated: true,
                                completion: nil)
         }
+        
+        //pageDelegate?.pageVC(self, didUpdatePageCount: orderedViewControllers.count)
         
     }
     
@@ -88,8 +98,38 @@ class pageVC: UIPageViewController, UIPageViewControllerDataSource {
             instantiateViewController(withIdentifier: "person\(person)VC")
     }
     
-}
+//    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+//        if let firstViewController = viewControllers?.first,
+//            let index = orderedViewControllers.index(of: firstViewController) {
+//            pageDelegate?.pageVC(self, didUpdatePageIndex: index)
+//    }
     
+        
+}
+
+//    protocol pageVCDelegate: class {
+//        
+//        /**
+//         Called when the number of pages is updated.
+//         
+//         - parameter tutorialPageViewController: the TutorialPageViewController instance
+//         - parameter count: the total number of pages.
+//         */
+//        
+//        func pageVC(pageVC: pageVC, didUpdatePageCount count: Int)
+//        
+//        /**
+//         Called when the current index is updated.
+//         
+//         - parameter tutorialPageViewController: the TutorialPageViewController instance
+//         - parameter index: the index of the currently visible page.
+//         */
+//        func pageVC(pageVC: pageVC, didUpdatePageIndex index: Int)
+//        
+//}
+
+
+
 
     /*
     // MARK: - Navigation

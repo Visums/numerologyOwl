@@ -120,7 +120,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="NumerologyOwl" id="jtH-nD-Ilo">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="qzr-vc-y6B">
-                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <segue destination="cqm-q1-PAB" kind="show" identifier="personDetailsVCNew" id="o1c-TW-gxW"/>
                             </connections>
@@ -128,7 +128,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="o2b-mK-WMq" id="5FZ-3k-Um8"/>
-                        <segue destination="Np3-jk-iHY" kind="show" identifier="showpageVC" id="TtV-Pc-rpO"/>
+                        <segue destination="vCz-8P-rLJ" kind="show" identifier="showpageVC" id="CaP-Sh-Bec"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -244,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ahh-ps-tsX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1728.8" y="37.331334332833585"/>
+            <point key="canvasLocation" x="1729" y="37"/>
         </scene>
         <!--Person NumbersVC-->
         <scene sceneID="GJ9-sz-Xa6">
@@ -266,12 +266,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="numberslbl" destination="gLb-Jz-9xq" id="P9o-1w-KF2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bkh-TR-IJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="254" y="1569"/>
+            <point key="canvasLocation" x="266" y="2270"/>
         </scene>
         <!--Person MatrixVC-->
         <scene sceneID="nmg-rB-uNC">
@@ -293,12 +296,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z8c-7a-de3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1014" y="1569"/>
+            <point key="canvasLocation" x="1026" y="2270"/>
         </scene>
         <!--Person Karma-->
         <scene sceneID="QdV-Xx-hTQ">
@@ -320,12 +323,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EIS-O0-IWU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1730" y="1569"/>
+            <point key="canvasLocation" x="1740" y="2270"/>
         </scene>
         <!--Person PeriodsVC-->
         <scene sceneID="71i-tt-6eo">
@@ -347,17 +350,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dId-lK-nBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2505" y="1569"/>
+            <point key="canvasLocation" x="2495" y="2270"/>
         </scene>
         <!--Person IndividualVC-->
         <scene sceneID="NjK-N6-0WQ">
             <objects>
-                <viewController storyboardIdentifier="personIndividualDaysVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bzu-r5-sh6" customClass="personIndividualVC" customModule="numerologyOwl2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="personIndividualVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bzu-r5-sh6" customClass="personIndividualVC" customModule="numerologyOwl2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iBH-kv-lit"/>
                         <viewControllerLayoutGuide type="bottom" id="rpl-Vu-qRa"/>
@@ -374,30 +377,84 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DoN-zX-pZY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3202" y="1569"/>
+            <point key="canvasLocation" x="3191" y="2270"/>
         </scene>
         <!--PageVC-->
         <scene sceneID="rVU-Bp-bcQ">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Np3-jk-iHY" customClass="pageVC" customModule="numerologyOwl2" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="mid" doubleSided="YES" id="Np3-jk-iHY" customClass="pageVC" customModule="numerologyOwl2" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UY4-Do-GNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="830"/>
+            <point key="canvasLocation" x="1729" y="1583"/>
+        </scene>
+        <!--Page DotsVC-->
+        <scene sceneID="NE1-pF-1cR">
+            <objects>
+                <viewController id="vCz-8P-rLJ" customClass="pageDotsVC" customModule="numerologyOwl2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BeH-8G-FBH"/>
+                        <viewControllerLayoutGuide type="bottom" id="5xU-k2-Ivl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kvj-Mg-utH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="0Qc-Cl-cWo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpP-uk-SaY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <connections>
+                                    <segue destination="Np3-jk-iHY" kind="embed" id="6pg-xz-o2p"/>
+                                </connections>
+                            </containerView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="DVe-3M-eD4">
+                                <rect key="frame" x="152" y="72" width="71" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5xU-k2-Ivl" firstAttribute="top" secondItem="0Qc-Cl-cWo" secondAttribute="bottom" id="4aE-Pq-baF"/>
+                            <constraint firstItem="0Qc-Cl-cWo" firstAttribute="leading" secondItem="kvj-Mg-utH" secondAttribute="leading" id="7OV-6E-HtW"/>
+                            <constraint firstItem="JpP-uk-SaY" firstAttribute="top" secondItem="BeH-8G-FBH" secondAttribute="bottom" id="9zM-0h-1eQ"/>
+                            <constraint firstItem="JpP-uk-SaY" firstAttribute="leading" secondItem="kvj-Mg-utH" secondAttribute="leading" id="HbI-7v-0R4"/>
+                            <constraint firstItem="DVe-3M-eD4" firstAttribute="top" secondItem="BeH-8G-FBH" secondAttribute="bottom" constant="8" id="IgL-Yq-stw"/>
+                            <constraint firstItem="0Qc-Cl-cWo" firstAttribute="leading" secondItem="kvj-Mg-utH" secondAttribute="leading" id="JDJ-Tb-zWr"/>
+                            <constraint firstItem="DVe-3M-eD4" firstAttribute="centerX" secondItem="kvj-Mg-utH" secondAttribute="centerX" id="R5h-h0-oAD"/>
+                            <constraint firstItem="5xU-k2-Ivl" firstAttribute="top" secondItem="JpP-uk-SaY" secondAttribute="bottom" id="YXj-eg-20k"/>
+                            <constraint firstAttribute="trailing" secondItem="0Qc-Cl-cWo" secondAttribute="trailing" id="lsJ-Qo-Tuu"/>
+                            <constraint firstAttribute="trailing" secondItem="JpP-uk-SaY" secondAttribute="trailing" id="mvI-Du-DlY"/>
+                            <constraint firstAttribute="trailing" secondItem="0Qc-Cl-cWo" secondAttribute="trailing" id="nqZ-x6-LG7"/>
+                            <constraint firstItem="0Qc-Cl-cWo" firstAttribute="top" secondItem="kvj-Mg-utH" secondAttribute="top" id="skJ-MS-dwr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="container" destination="JpP-uk-SaY" id="yh5-OF-Ijl"/>
+                        <outlet property="pagecontrol" destination="DVe-3M-eD4" id="id0-K4-h2M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8f-WN-kPk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1729" y="798"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="32E-bU-Yvs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="V78-ag-4iI" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FJ0-cZ-Z10">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="FJ0-cZ-Z10">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

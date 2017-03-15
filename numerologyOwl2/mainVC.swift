@@ -46,25 +46,24 @@ class mainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         
         if let objs = controller.fetchedObjects, objs.count > 0 {
             
-            //let person = objs[indexPath.row]
+            let person = objs[indexPath.row]
             
-                self.performSegue(withIdentifier: "showpageVC", sender: self)
-//                self.performSegue(withIdentifier: "pageVC", sender: self)
+            self.performSegue(withIdentifier: "showpageVC", sender: person)
         
         }
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        
-//        if let destination = segue.destination as? pageVC {
-//            
-//            if let person = sender as? Persona {
-//                destination.person = person
-//            }
-//            
-//            
-//        }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let destination = segue.destination as? pageVC {
+            
+            if let person = sender as? Persona {
+                destination.person = person
+            }
+            
+            
+        }
+    }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
